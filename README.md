@@ -6,7 +6,7 @@ For a complete overview of the project, see [ATHLETE_READINESS_PROJECT_README.pd
 
 For a more raw and comprehensive overview of the project and its data, see [ATHLETE_READINESS_PROJECT_COMPREHENSIVE_README.pdf](./ATHLETE_READINESS_PROJECT_COMPREHENSIVE_README.pdf).
 
-## How to Run
+## How to Run 
 
 The complete training and evaluation process is implemented in the Colab notebook: [athlete_readiness_project.ipynb](./notebooks/athlete_readiness_project.ipynb)
 
