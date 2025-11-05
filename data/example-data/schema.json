@@ -1,0 +1,122 @@
+{
+  "athlete_id": {
+    "dtype": "int",
+    "unit": "id",
+    "description": "Unique athlete id"
+  },
+  "day": {
+    "dtype": "int",
+    "unit": "1..150",
+    "description": "Day index"
+  },
+  "RHR_z": {
+    "dtype": "float",
+    "unit": "z-score",
+    "description": "Resting HR (within-athlete z)"
+  },
+  "HRV_z": {
+    "dtype": "float",
+    "unit": "z-score",
+    "description": "HRV RMSSD (within-athlete z)"
+  },
+  "HRV_delta": {
+    "dtype": "float",
+    "unit": "bpm/ms units",
+    "description": "HRV raw \u2212 baseline mean (ms)"
+  },
+  "RHR_delta": {
+    "dtype": "float",
+    "unit": "bpm",
+    "description": "RHR raw \u2212 baseline mean (bpm)"
+  },
+  "SleepDur_z": {
+    "dtype": "float",
+    "unit": "z-score",
+    "description": "Sleep duration (within-athlete z)"
+  },
+  "SleepEff_z": {
+    "dtype": "float",
+    "unit": "z-score",
+    "description": "Sleep efficiency (within-athlete z)"
+  },
+  "SessDuration": {
+    "dtype": "float",
+    "unit": "minutes",
+    "description": "Session duration (minutes)"
+  },
+  "RPE_z": {
+    "dtype": "float",
+    "unit": "z-score-like",
+    "description": "Perceived exertion (within-athlete z-like)"
+  },
+  "InternalLoad": {
+    "dtype": "float",
+    "unit": "AU",
+    "description": "SessDuration \u00d7 RPE (proxy)"
+  },
+  "AcuteLoad_7d": {
+    "dtype": "float",
+    "unit": "AU",
+    "description": "7-day mean of InternalLoad (inclusive)"
+  },
+  "ChronicLoad_28dWeeklyMean": {
+    "dtype": "float",
+    "unit": "AU",
+    "description": "28-day mean of AcuteLoad"
+  },
+  "ACWR": {
+    "dtype": "float",
+    "unit": "ratio",
+    "description": "Acute / Chronic workload ratio"
+  },
+  "dow_sin": {
+    "dtype": "float",
+    "unit": "-",
+    "description": "Day-of-week sine"
+  },
+  "dow_cos": {
+    "dtype": "float",
+    "unit": "-",
+    "description": "Day-of-week cosine"
+  },
+  "Fatigue_z": {
+    "dtype": "float",
+    "unit": "z-score",
+    "description": "Subjective fatigue (within-athlete z)"
+  },
+  "Soreness_z": {
+    "dtype": "float",
+    "unit": "z-score",
+    "description": "Subjective soreness (within-athlete z)"
+  },
+  "CRI_prev": {
+    "dtype": "float",
+    "unit": "0\u20131",
+    "description": "CRI at t\u22121"
+  },
+  "CRI": {
+    "dtype": "float",
+    "unit": "0\u20131",
+    "description": "Continuous Readiness Index (sigmoid)"
+  },
+  "ReadyBin": {
+    "dtype": "int",
+    "unit": "0/1",
+    "description": "Binary readiness (CRI \u2265 0.5)"
+  },
+  "ReadyOrd": {
+    "dtype": "int",
+    "unit": "0..4",
+    "description": "Ordinal readiness (0\u20130.2, \u2026, 0.8\u20131.0)"
+  },
+  "valid_load_feats": {
+    "dtype": "bool",
+    "unit": "-",
+    "description": "True when Acute/Chronic/ACWR available"
+  },
+  "valid_target": {
+    "dtype": "bool",
+    "unit": "-",
+    "description": "True when next day exists (False on final day)"
+  }
+}
