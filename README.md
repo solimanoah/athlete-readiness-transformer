@@ -15,5 +15,5 @@ To reproduce results:
 2. Download the five data files (`readiness_timeseries.csv`, `schema.json`, `normalization_stats.json`, `simulation_config.json`, `splits_loao.json`) from the repository.
 3. Upload them to your Google Drive using a similar directory structure used in the notebook (e.g., `/MyDrive/athlete_readiness_project/data/raw/`).
 4. Update any Drive paths in the first few code cells if your setup differs.
-5. Run all cells sequentially to train and evaluate the model.
+5. Run all cells sequentially to preprocess data, train, and evaluate the model.
 
