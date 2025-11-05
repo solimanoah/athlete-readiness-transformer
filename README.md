@@ -4,7 +4,7 @@
 
 For a complete overview of the project, see [ATHLETE_READINESS_PROJECT_README.pdf](./ATHLETE_READINESS_PROJECT_README.pdf).
 
-For a more raw and comprehensive overview of the project, see xxx
+For a more raw and comprehensive overview of the project and its data, see xxx
 
 ## How to Run
 
